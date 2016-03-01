@@ -45,7 +45,7 @@ terraform destroy  # to remove the entire cluster
 ```
 provider "docker" {
   host = "tcp://us-east-1.docker.joyent.com:2376" # datacenter you want to use
-  cert_path = "/Users/chris/.sdc/docker/jill" # make sure that you ran bash setup script!
+  cert_path = "/Users/chris/.sdc/docker/chris" # make sure that you ran bash setup script!
 }
 ```
 
